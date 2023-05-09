@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Info about your favorite car wash in Raleigh NC"
+    />
+    <meta property="og:title" content="Wash and Roll Official Website" />
+    <meta
+      property="og:description"
+      content="Info about your favorite car wash in Raleigh NC"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="http://www.americanwash.net/logo_full_size.4ed7800f.png"
+    />
+    <meta property="og:url" content="https://americanwash.net/" />
+    <title>🌊 Wash and Roll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0C5V0M8DFT"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-0C5V0M8DFT");
+    </script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <div class="home" id="home" onclick="scrollTo(0, 0)">🏡</div>
+    <header class="header">
+      <div class="section">
+        <img class="header__img" src="images/logo_full_size.png" alt="" />
+        <!-- <h1 class="header__title">Wash and Roll</h1> -->
+        <h2 class="header__subtitle">"Always clean, always working"</h2>
+        <ul class="header__navigation">
+          <li id="liAbout">About</li>
+          <li id="liRefund">Problem</li>
+        </ul>
+        <!-- fix border -->
+      </div>
+    </header>
+    <section id="sectionAbout">
+      <div class="section">
+        <div class="section__container">
+          <h1 class="section__title">About</h1>
+          <p class="section__discription">
+            Wash and Roll is a car wash that has been serving
+            Raleigh for over 10 years. It is equipped with
+            interior vaccums, a carpet cleaner, and a
+            touchless automatic wash.
+            <br /><br />Prices <br />Vacuum: $1.00
+            <br />Automatic: $8, $10, $13 or $15 <br /><br />Address: <br />8310 Litchford Rd
+            <br />Raleigh NC 27615
+          </p>
+        </div>
+        <p class="section__emoji">ℹ️</p>
+      </div>
+    </section>
+    <section id="sectionRefund">
+      <div class="section">
+        <div class="section__container">
+          <h1 class="section__title">Problem</h1>
+          <div class="section__discription">
+            <p>
+              To report a problem, please specify the machine and describe your
+              issue below. Your request will be processed as soon as possible.
+            </p>
+            <img
+              src="images/Problem_map2.png"
+              alt=""
+              class="header__img"
+              id="header__img--refund"
+            />
+            <form
+              data-netlify="true"
+              method="post"
+              action="https://formspree.io/f/xbjwljnk"
+              class="section__inputfield"
+            >
+              <div class="section__input">
+                <p class>Machine Station</p>
+                <input
+                  name="Machine Station"
+                  required
+                  type="number"
+                  placeholder='e.g. "1"'
+                  min="1"
+                  max="17"
+                />
+              </div>
+              <div class="section__input">
+                <p class>Money Spent</p>
+                <input
+                  name="Money Spent"
+                  required
+                  type="number"
+                  placeholder='e.g. "$1.75"'
+                  min="0"
+                  max="12"
+                />
+              </div>
+              <div class="section__input">
+                <p>First Name</p>
+                <input
+                  name="First Name"
+                  required
+                  type="text"
+                  placeholder='e.g. "Mustapha"'
+                  minlength="1"
+                  maxlength="20"
+                />
+              </div>
+              <div class="section__input">
+                <p>Last Name</p>
+                <input
+                  name="Last Name"
+                  required
+                  type="text"
+                  placeholder='e.g. "Mond"'
+                  minlength="1"
+                  maxlength="20"
+                />
+              </div>
+              <div class="section__input">
+                <p>Phone #</p>
+                <input
+                  name="Phone #"
+                  required
+                  type="tel"
+                  placeholder='e.g. "&lpar;919&rpar; 123-4567"'
+                  minlength="10"
+                  maxlength="10"
+                />
+              </div>
+              <div class="section__input">
+                <p>Email</p>
+                <input
+                  name="Email"
+                  required
+                  type="email"
+                  placeholder='e.g. "MMond@gmail.com"'
+                  minlength="1"
+                  maxlength="20"
+                />
+              </div>
+              <div class="section__input section__input--grow">
+                <p>Please describe your issue</p>
+                <textarea
+                  name="Issue"
+                  required
+                  class="section__textarea"
+                  minlength="10"
+                  maxlength="500"
+                  placeholder='e.g. "Machine ate my money and is not working."'
+                ></textarea>
+              </div>
+              <div class="section__input section__input--grow">
+                <button
+                  name="submit"
+                  class="section__input--submit"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <p class="section__emoji">⚠️</p>
+      </div>
+    </section>
+    <footer id="sectionSecret">
+      <div class="section">
+        <div class="section__container">
+          <div class="section__discription">
+            <p class="footer__title">Thanks for visiting Washandroll.net 😀</p>
+            <p class="footer__disclaimer">
+              Wash and Roll -
+              <a
+                target="_blank"
+                class="footer__disclaimer"
+                href="https://www.google.com/maps/dir/?api=1&destination=American+Wash+Four+Oaks+NC"
+                >8310 Litchford Rd Raleigh, NC 27615</a
+              ><br /><br />
+              <a
+                target="_blank"
+                class="footer__disclaimer"
+                href="mailto:contact@americanwash.net"
+                >hello@washandroll.net</a
+              >
+              -
+              <a
+                target="_blank"
+                class="footer__disclaimer"
+                href="tel:+19192054927"
+                >919 205 4927</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

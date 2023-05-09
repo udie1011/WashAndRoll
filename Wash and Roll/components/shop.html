@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ethan Jackowski's Personal Webiste, credit cards, and Social Security Number... Or, at least one of those."
+    />
+    <meta property="og:title" content="Ethan Jackowski's Website" />
+    <meta property="og:description" content="Ethan Jackowski's Information" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://media-exp1.licdn.com/dms/image/C4E03AQECZMYj7F2R0Q/profile-displayphoto-shrink_200_200/0/1618492580346?e=1640822400&v=beta&t=YRCTBMx1DyEBslo3_y2Y8I1KLh3h0MuSffmyJXTcUvQ"
+    />
+    <meta property="og:url" content="https://ethanjackowski.com/" />
+    <title>Ethan's Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J21WW5C7GY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-J21WW5C7GY');
+    </script>
+    
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <div class="home" id="home">🏡</div>
+    <section id="sectionAbout">
+      <div class="section">
+        <div class="section__container">
+          <h1 class="section__title">Like Ethan? <br>Shop Ethan.</h1>
+          <div class="section__discription">
+              <div class="shop-item">
+                  <div class="shop-item__photo-container relative">
+                      <!-- <img class="shop-item__photo-placeholder" src="images/merchHat1.jpg" alt=""> -->
+                      <img id="hat1" class="shop-item__photo-visible" src="images/merchHat1.jpg" alt="">
+                      <img id="hat2" class="shop-item__photo" src="images/merchHat2.jpg" alt="">
+                      <img id="hat3" class="shop-item__photo" src="images/merchHat3.jpg" alt="">
+                      <img id="hat4" class="shop-item__photo" src="images/merchHat4.jpg" alt="">
+                      <div class="shop-item__button-prev" onclick="slideIndex(-1)">👈🏻</div>
+                      <div class="shop-item__button-next" onclick="slideIndex(1)">👉🏻</div>
+                  </div>
+                  <div class="shop-item__discription">
+                      <p class="shop-item__title">Beanie</p>
+                      <p class="shop-item__price">$295.00</p>
+                  </div>
+                  <div class="shop-item__bottom-border"></div>
+              </div>
+          </div>
+        </div>
+      <div class="section">
+    </section>
+  </section>
+<script src="js/shop.js"></script>
+    </body>
+</html>
