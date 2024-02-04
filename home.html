@@ -18,6 +18,13 @@
       property="og:image"
       content="http://www.washandroll.net/logo_full_size.4ed7800f.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=PT+Sans:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
     <meta property="og:url" content="https://washandroll.net/" />
     <title>🌊 Wash and Roll</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -51,7 +58,10 @@
         <h2 class="header__subtitle">"Always clean, always working"</h2>
         <ul class="header__navigation">
           <li id="liAbout">About</li>
+          <li id="liPictures">Pictures</li>
+          <li id="liUnlimited">Unlimited</li>
           <li id="liRefund">Problem</li>
+          <li id="liContact">Contact</li>
         </ul>
         <!-- fix border -->
       </div>
@@ -71,6 +81,71 @@
           </p>
         </div>
         <p class="section__emoji">ℹ️</p>
+      </div>
+    </section>
+    <section id="sectionPictures">
+      <!-- <div class="section"> -->
+        <div class="section__container">
+          <h1 class="section__title">Pictures</h1>
+          <div class="pictureLayoutVertical">
+            <div class="pictureLayoutHorizaontal">
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo1.HEIC" alt="">
+              </div>
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo2.HEIC" alt="">
+              </div>
+            </div>
+            <div class="pictureLayoutHorizaontal">
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo3.HEIC" alt="">
+              </div>
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo4.HEIC" alt="">
+              </div>
+            </div>
+              <div class="pictureLayoutHorizaontal">
+                <div class="imageContainer">
+                  <img class="section__pictures" src="images/Photo5.HEIC" alt="">
+                </div>
+                <div class="imageContainer">
+                  <img class="section__pictures" src="images/Photo6.HEIC" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+        <p class="section__emoji">🖼️</p>
+      </div>
+    </section>
+    <section id="sectionUnlimited">
+      <div class="section">
+        <div class="section__container">
+          <h1 class="section__title">Unlimited Wash Club</h1>
+          <h2 class="section__discription alignCenter">Choose a subscription plan!<br>*Pricing is per month</h2>
+          <div class="washPlans">
+            <a href="https://app.everwash.com/#checkout/6592/blue" class="washPlan washPlan__platinum">
+              <h3>Platinum</h3>
+              <p>ArmorAll Extreme Shine Wax w/ Carnauba, Rain-X Complete Surface Protectant, Triple Foam Polish, Turbo Dry, Underbody Blast, Wheel Blaster, Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$29</p>
+            </a>
+            <a href="https://app.everwash.com/#checkout/6591/orange" class="washPlan washPlan__gold">
+              <h3>Gold</h3>
+              <p>Rain-X Complete Surface Protectant, Triple Foam Polish, Turbo Dry, Underbody Blast, Wheel Blaster, Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$25</p>
+            </a>
+            <a href="https://app.everwash.com/#checkout/6590/green" class="washPlan washPlan__silver">
+              <h3>Silver</h3>
+              <p>Turbo Dry, Underbody Blast, Wheel Blaster, Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$20</p>
+            </a>
+            <a href="https://app.everwash.com/#checkout/6589/red" class="washPlan washPlan__express">
+              <h3>Express</h3>
+              <p>Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$18</p>
+            </a>
+          </div>
+        </div>
+        <p class="section__emoji">🎉</p>
       </div>
     </section>
     <section id="sectionRefund">
@@ -167,7 +242,7 @@
                   required
                   class="section__textarea"
                   minlength="10"
-                  maxlength="500"
+                  maxlength="1000"
                   placeholder='e.g. "Machine ate my money and is not working."'
                 ></textarea>
               </div>
@@ -198,7 +273,7 @@
                 class="footer__disclaimer"
                 href="https://goo.gl/maps/KjhzXQZsHGDm1fgB6"
                 >8310 Litchford Rd Raleigh, NC 27615</a
-              ><br /><br />
+              ><br />
               <a
                 target="_blank"
                 class="footer__disclaimer"
