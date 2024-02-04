@@ -309,12 +309,14 @@ section:nth-of-type(odd) {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .section__input {
   padding-right: 10px;
   padding-bottom: 30px;
   text-align: center;
+  min-width: 300px;
 }
 
 .section__input input {
