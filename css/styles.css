@@ -321,6 +321,7 @@ section:nth-of-type(odd) {
 
 .section__input input {
   border-radius: 10px;
+  min-width: 300px;
 }
 
 .section__input textarea {
