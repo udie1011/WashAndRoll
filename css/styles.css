@@ -62,7 +62,7 @@ header {
 
 .header {
   padding: 0 12px;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .grid-1x3 {
