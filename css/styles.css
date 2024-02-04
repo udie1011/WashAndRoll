@@ -62,7 +62,7 @@ header {
 
 .header {
   padding: 0 12px;
-  height: 100lvh;
+  height: 100vh;
 }
 
 .grid-1x3 {
@@ -147,7 +147,7 @@ header {
 .header__subtitle {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 70px;
+  margin: auto;
 }
 
 .header__navigation {
