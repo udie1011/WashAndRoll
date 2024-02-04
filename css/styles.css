@@ -147,7 +147,7 @@ header {
 .header__subtitle {
   font-size: 2rem;
   text-align: center;
-  margin: auto;
+  margin: 0;
 }
 
 .header__navigation {
@@ -156,9 +156,10 @@ header {
   gap: 10px;
   justify-content: center;
   padding: 0;
-  margin: 30px 0px;
   font-size: 2rem;
   flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .header__navigation li {
@@ -177,11 +178,8 @@ header {
 .header__img {
   max-width: 100%;
   max-height: 70vh;
-  /* border-radius: 20px; */
-  /* border: solid rgb(199, 193, 190) 5px; */
-  padding: 50px 0px;
+  padding-top: 50px;
   box-sizing: border-box;
-  margin: 0px auto;
   display: flex;
   justify-content: center;
   position: relative;
@@ -593,4 +591,11 @@ footer .section__discription {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+}
+
+.flexSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
