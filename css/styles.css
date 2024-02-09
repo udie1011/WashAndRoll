@@ -189,6 +189,7 @@ header {
   justify-content: center;
   position: relative;
   z-index: 0;
+  object-fit: contain;
 }
 
 #header__img--refund {
