@@ -5,6 +5,10 @@ liAbout.addEventListener('click', function (event) {
     scrollTo(0, sectionAbout.offsetTop);
 });
 
+liSpecials.addEventListener('click', function (event) {
+    scrollTo(0, sectionSpecials.offsetTop);
+});
+
 liRefund.addEventListener('click', function (event) {
     scrollTo(0, sectionRefund.offsetTop);
 });
